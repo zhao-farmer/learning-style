@@ -1,0 +1,29 @@
+{
+    "liveSassCompile.settings.formats":[
+        {
+            /*
+            :nexted -嵌套模式
+            :expanded - 展开格式
+            :compact - 紧凑模式
+            :compressed - 压缩格式
+            */
+            "format": "expanded", //可定制的出口css样式(expanded,compact,compressed,nested)
+            "extensionName": ".css",
+            "savePath": "~/../css" // 为null为当前目录
+        }
+    ],
+    /*排除目录*/
+    "liveSassCompile.settings.excludeList": [ 
+        "**/node_modules/**",
+        ".vscode/**" 
+    ],
+     /* 是否生成对应的map*/
+    "liveSassCompile.settings.generateMap":false,
+
+    /* 是否添加兼容前缀，例如 ： --webkit-  -moz- ...等*/
+    "liveSassCompile.settings.autoprefix": [
+    
+        "> 1%",
+        "last 2 versions"
+    ]
+}

@@ -1,0 +1,11 @@
+{
+    // Easy LESS配置
+    "less.compile": {
+        "compress": false,//是否压缩
+        "sourceMap": false,//是否生成map文件，有了这个可以在调试台看到less行数
+        // "out": true, // 是否输出css文件，false为不输出，千万不要是false 也可以输出目录
+        "out": "../css/",
+        "outExt": ".css", // 输出文件的后缀,小程序可以写'.wxss'
+    
+    }
+}
